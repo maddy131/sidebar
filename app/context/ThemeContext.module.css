@@ -1,0 +1,11 @@
+.light{
+    background-color: antiquewhite;
+    color:#182237;
+  }
+  .Dark{
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  .anim{
+    transition: 1s all ease;
+  }

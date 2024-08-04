@@ -1,0 +1,47 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    Width: 34%;
+    height: 30vh;
+    border : 2px solid var(--bordercolor);
+}
+.container:hover{
+    background-color: #aa9655;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+.title{
+    font-style: 24px;
+    font-weight: 300;
+    
+}
+
+.number{
+    font-size: 24px;
+    font-weight: 500;
+}
+.detail{
+    font-style: 14px;
+    font-weight: 300;
+}
+.positive{
+    color: lime;
+}
+.negetive{
+    color: red;
+}
+.userdetails,.userdetails1,.userdetails{
+    height:30vh;
+    margin: 50px 0 50px 0;
+    padding: 100px 0 100px 0;
+
+}

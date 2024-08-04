@@ -1,0 +1,37 @@
+:root{
+  --bg: rgb(185, 171, 171); ;
+  --bgSoft: rgba(250, 235, 215, 0.771);
+  --text: #67645e; ;
+  --textSoft: #e8a456;
+  --bordercolor: #d07915;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: var(--bordercolor);
+}
+
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+
+}
+.light{
+  background-color: antiquewhite;
+  color:#182237;
+}
+.Dark{
+  background-color: var(--bg);
+  color: var(--text);
+}
+.anim{
+  transition: 1s all ease;
+}
